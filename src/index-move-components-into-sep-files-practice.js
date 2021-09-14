@@ -1,0 +1,7 @@
+import React from 'react';
+import ReactDOM from 'react-dom'
+import MyInfo from "./components-move-components/MyInfo"
+
+
+
+ReactDOM.render(<MyInfo/>,document.getElementById("root"))
