@@ -1,14 +1,15 @@
-import React from "react";
-import Footer from "./components-parentchild/Footer";
-import MainContent from "./components-parentchild/MainContant";
-import Header from "./components-parentchild/Header"
-const App = ()=> {
-    return(
-    <div>
-        <Header />
-        <MainContent />
-         <Footer />
-    </div>
+import React from 'react'
+
+function App() {
+    return (
+        <div>
+           <h1>hallo kitten</h1>
+           <button>
+           <img src="http://placekitten.com/200/300" alt="" />
+           </button>
+        </div>
+        
     )
 }
+
 export default App
