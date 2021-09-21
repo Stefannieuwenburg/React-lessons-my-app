@@ -6,12 +6,12 @@ function App() {
     let timeOfDay
 
 console.log(hours);
-if (hours < 12 ) {
-    timeOfDay = "morning"
-} else if (hours >= 12 && hours < 17){
-timeOfDay = "afternoon"
+if (hours < 12) {
+    timeOfDay = "morning" 
+}else if (hours >= 12 && hours < 17){
+     timeOfDay = "afternoon" 
 }else {
-    timeOfDay= "nicht"
+     timeOfDay = "night" 
 }
   const styles = {
       color:"#ff8c00",
