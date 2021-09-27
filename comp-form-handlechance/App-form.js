@@ -80,22 +80,23 @@ class App extends Component{
                   valeu={this.state.favColor}
                   onChange={this.handleChange}
                   name="favColor">
-
-                  <option valeu="blue">blue</option>
+                  
+                  <option valeu= "blue">blue</option>
                   <option value="green">green</option>
-                  <option valeu="red">red</option>
+                  <option valeu= "red">red</option>
                   <option value="orange">orange</option>
-                  <option valeu="yellow">yellow</option>  
-         </select>
-           
+                  <option valeu= "yellow">yellow</option>  
+            </select>
             <h1> 
-               your name is:           {this.state.firstName}
-               <br />
-               you are a :             {this.state.gender}
-               <br />
-               your favorite color is: {this.state.favColor}
-               <br />
+                  your name is:           {this.state.firstName}
+                  <br />
+                  you are a :             {this.state.gender}
+                  <br />
+                  your favorite color is: {this.state.favColor}
+                  <br />
             </h1>
+
+           
 
             <button>submit</button>
          
