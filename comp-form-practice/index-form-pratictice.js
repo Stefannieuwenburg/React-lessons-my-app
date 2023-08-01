@@ -9,4 +9,3 @@ import App from './App'
 ReactDOM.render(<App />, document.getElementById("root"))
 
 
-//les Les 48. React Container & Component Architecture 
