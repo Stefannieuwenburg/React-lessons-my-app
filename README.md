@@ -1,3 +1,8 @@
+## What I have Learn from this course
+
+This course having all the deep concept you need to know from React to have a solid experience 
+Including react JS ant jest test and more to learn.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
